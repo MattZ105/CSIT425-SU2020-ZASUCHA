@@ -1,0 +1,9 @@
+Objective: 
+Test car program to verify correct operation 
+Test Input 	    Expected Output                                 Real Output 	Pass/Fail 
+Capacity = 0 	Error Message (invalid input, no cars found) 	Error message 	    Pass 
+Capacity = 5	In stock inventory 	                            In stock inventory 	Pass
+Capacity = -1	Error Message (invalid input)	                Error message 	    Pass
+Capacity = 10 	In stock inventory	                            In stock inventory	Pass 
+Capacity = 50	Error message (not enough stock)	            Capacity of 50 cars shown in inventory	Fail 
+
